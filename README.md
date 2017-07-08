@@ -1,2 +1,2 @@
 # The-Till-Repository
-Boot camping various technologies in preparation for Bloomberg Internship
+Boot camping various technologies in web application

@@ -1,2 +1,6 @@
 #!/usr/bin/env ruby
-puts "Hello World!";
+print "Hello World!"
+puts "This is my second line."
+print "This is my third line."
+puts "Line four."
+puts "Fifth line."

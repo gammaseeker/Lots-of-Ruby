@@ -1,2 +1,2 @@
 # The Till Repository
-Boot camping various technologies in web application
+Boot camping various technologies used in creating web applications

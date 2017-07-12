@@ -14,3 +14,8 @@ def call_block
     puts "End of method"
 end
 call_block { puts "In the block" }
+
+[ 'cat', 'dog', 'horse'].each{|name| print name, " "}
+5.time{ print "*" }
+3.upto(6) {|i| print i }
+('a'..'e').each{|char| print char}

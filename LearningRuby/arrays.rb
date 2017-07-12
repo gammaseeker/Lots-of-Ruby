@@ -29,11 +29,3 @@ instSection =
         'violin' => 'string',
         test: 'test string'
     }
-instSection['oboe']
-instSection['cello']
-instSection['bassoon']
-
-histogram = Hash.new(0)
-histogram['key1']
-histogram['key1'] = histogram['key1'] + 1
-puts histogram['key1']

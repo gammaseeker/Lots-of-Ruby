@@ -1,21 +1,19 @@
-{puts "Hello"}
-do 
-    club.enroll(person)
-    person.socialize
+class Blocks
+  def three_times
+    yield
+    yield
+    yield
+  end
+
+  def fib_up_to(max)
+    i1, i2 = 1, 1
+    while i1 <= max
+      yield i1
+      i1, i2 = i2, i1+i2
+    end
+  end
 end
 
-greet { puts "Hi" }
-verbose_greet("Dave", "loyal customer") { puts "Hi" }
-
-def call_block
-    puts "Start of method"
-    yield #Calls parameter
-    yield #Calls parameter
-    puts "End of method"
-end
-call_block { puts "In the block" }
-
-[ 'cat', 'dog', 'horse'].each{|name| print name, " "}
-5.time{ print "*" }
-3.upto(6) {|i| print i }
-('a'..'e').each{|char| print char}
+b = Blocks.new
+b.three_times { puts "Hello" }
+b.fib_up_to(1000) { |f| print f, " " }

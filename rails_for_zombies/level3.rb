@@ -22,15 +22,16 @@
   #Challenge 4 
   <% zombies = Zombie.all %>
   <ul>
-    <% zombies.each do |zombie| %>
-      <li>
-        <%=zombie.name%>
-        <% if zombie.tweets %>
-          <%="SMART ZOMBIE"%>
-        <% end %>
-      </li>
-    <% end %>
-  </ul>
+  <% zombies.each do |zombie| %>
+    <li>
+      <%=zombie.name %>
+      	<% if zombie.tweets.count > 1%>
+      		<%="SMART ZOMBIE"%>
+     	<% end %>
+    </li>
+  <% end %>
+</ul>
+
 
   #Challenge 5 
   

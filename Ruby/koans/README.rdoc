@@ -1,6 +1,6 @@
 = Neo Ruby Koans
 
-The Ruby Koans walk you through the <b>most frustrating </b>path to enlightenment in order to learn Ruby.
+The Ruby Koans walk you along the path to enlightenment in order to learn Ruby.
 The goal is to learn the Ruby language, syntax, structure, and some common
 functions and libraries. We also teach you culture by basing the koans on tests.
 Testing is not just something we pay lip service to, but something we
